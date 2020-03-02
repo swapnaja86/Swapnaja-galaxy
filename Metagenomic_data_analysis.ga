@@ -1,0 +1,3048 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "format-version": "0.1",
+    "name": "Workflow constructed from history '16S V4'",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "trainset9_032012.pds.tax"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 10
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "d436331b-c543-4360-840b-1c07cee03433",
+            "workflow_outputs": []
+        },
+        "1": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "trainset9_032012.pds.fasta"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 130
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "b44667e7-a022-4893-85ee-07fc9d6ce400",
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 2,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "silva.v4.fasta"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 250
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "bcf370a0-113a-45c6-ade0-7b2bb446b12c",
+            "workflow_outputs": []
+        },
+        "3": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 3,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Mock_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 370
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "bf66b664-685b-43da-95eb-7ccd36f88755",
+            "workflow_outputs": []
+        },
+        "4": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 4,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Mock_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 490
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "81d4bac1-f9eb-4243-b2e9-cbe10a45f3da",
+            "workflow_outputs": []
+        },
+        "5": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 5,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "HMP_MOCK.v35.fasta"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 610
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9807f212-5ee8-457c-937b-35fff6504ff0",
+            "workflow_outputs": []
+        },
+        "6": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 6,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D150_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 730
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "def805fa-5d2b-46cf-979c-a0299c0eacea",
+            "workflow_outputs": []
+        },
+        "7": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 7,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D150_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 850
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "7cb934eb-91f0-4f47-9a5e-e9bbdd819f76",
+            "workflow_outputs": []
+        },
+        "8": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 8,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D149_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 970
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "8825899c-5673-4293-a0aa-840d37cc27f6",
+            "workflow_outputs": []
+        },
+        "9": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 9,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D149_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1090
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "89e13cbe-95e6-48bd-9732-b3f44b896c75",
+            "workflow_outputs": []
+        },
+        "10": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 10,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D148_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1210
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ed09e43f-ef5f-497c-bb2c-ac24d0237b88",
+            "workflow_outputs": []
+        },
+        "11": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 11,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D148_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1330
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ca22c4eb-01dd-4fa9-88f0-1ac3eb5667e1",
+            "workflow_outputs": []
+        },
+        "12": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 12,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D147_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1450
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9ae44351-0f59-4ac0-9c44-b8d1b66e0b53",
+            "workflow_outputs": []
+        },
+        "13": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 13,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D147_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1570
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "fbb63772-a9d8-4b60-abd5-d07d3a7f7cb5",
+            "workflow_outputs": []
+        },
+        "14": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 14,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D146_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1690
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9aad2565-cee4-4d9c-a864-cc77d5a98d07",
+            "workflow_outputs": []
+        },
+        "15": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 15,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D146_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1810
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "99681bae-cc5c-4864-8af1-a9cacd68504c",
+            "workflow_outputs": []
+        },
+        "16": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 16,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D145_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1930
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "366cc110-f9c2-4689-b910-0a94269df962",
+            "workflow_outputs": []
+        },
+        "17": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 17,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D145_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2050
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ffa8b023-c5f6-47e0-889a-88262aeb3b37",
+            "workflow_outputs": []
+        },
+        "18": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 18,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D144_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2170
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "382d366e-5b73-4fea-91c0-e6b3af2c3c0d",
+            "workflow_outputs": []
+        },
+        "19": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 19,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D144_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2290
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "5b828de8-f8c1-4881-bfc5-16fd362e18aa",
+            "workflow_outputs": []
+        },
+        "20": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 20,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D143_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2410
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "172e5eb3-6aa1-48ba-9a46-738bf9a26804",
+            "workflow_outputs": []
+        },
+        "21": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 21,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D143_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2530
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "42d17bb4-5239-43f8-afb0-1a6da36e99b5",
+            "workflow_outputs": []
+        },
+        "22": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 22,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D142_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2650
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "856a74d1-5494-47a0-b268-3b107ca98e3d",
+            "workflow_outputs": []
+        },
+        "23": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 23,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D142_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2770
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "cf2c21c0-355d-462c-8f15-916a4301bd8e",
+            "workflow_outputs": []
+        },
+        "24": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 24,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D141_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 2890
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "b85c3464-db35-4c12-b30e-1cf387f169b8",
+            "workflow_outputs": []
+        },
+        "25": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 25,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D141_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3010
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "81185921-f4c8-4967-8628-8b18d6e64ccc",
+            "workflow_outputs": []
+        },
+        "26": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 26,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D9_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3130
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "f8d5eb54-45f3-43e8-b5e1-d17d2f569b9c",
+            "workflow_outputs": []
+        },
+        "27": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 27,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D9_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3250
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "6edca506-1571-4860-bc36-c400709c64b0",
+            "workflow_outputs": []
+        },
+        "28": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 28,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D8_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3370
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9507fc1b-33aa-46f2-8288-a8642195a4e2",
+            "workflow_outputs": []
+        },
+        "29": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 29,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D8_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3490
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "13141610-aa24-4c76-87f5-103677fb3cc6",
+            "workflow_outputs": []
+        },
+        "30": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 30,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D7_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3610
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ad6b3bb4-0f89-4d71-8dc3-864886fdbdda",
+            "workflow_outputs": []
+        },
+        "31": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 31,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D7_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3730
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "5d795b27-e522-4090-b6d2-e96bd31f200f",
+            "workflow_outputs": []
+        },
+        "32": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 32,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D6_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3850
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "2a21ee54-0063-46bb-bd7b-ddfc96b570b2",
+            "workflow_outputs": []
+        },
+        "33": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 33,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D6_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 3970
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a9760c60-9ae8-46b6-9fb8-62bd958441c1",
+            "workflow_outputs": []
+        },
+        "34": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 34,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D5_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4090
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "d94892d2-dab5-4a9f-9f52-0d2c94f35446",
+            "workflow_outputs": []
+        },
+        "35": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 35,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D5_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4210
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "bf27021a-7108-453b-b41f-a779a6008447",
+            "workflow_outputs": []
+        },
+        "36": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 36,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D3_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4330
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a3e54caf-fc12-4d4c-8615-097d7d1b3cb7",
+            "workflow_outputs": []
+        },
+        "37": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 37,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D3_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4450
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "aae13d4a-335a-4ffb-ac01-782c620a10ce",
+            "workflow_outputs": []
+        },
+        "38": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 38,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D2_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4570
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "358a3f4a-7f0c-4cc5-add3-75efd1f06566",
+            "workflow_outputs": []
+        },
+        "39": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 39,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D2_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4690
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "6518e1f0-b922-4be7-a342-71f34bc5b942",
+            "workflow_outputs": []
+        },
+        "40": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 40,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D1_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4810
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "57568931-b516-4493-9bd9-dd018cbb396e",
+            "workflow_outputs": []
+        },
+        "41": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 41,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D1_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 4930
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "4a16b832-a274-4c1f-a10c-068e346d4a63",
+            "workflow_outputs": []
+        },
+        "42": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 42,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D0_R2.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 5050
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "6c98370b-d851-4588-8841-011a06a7ca2f",
+            "workflow_outputs": []
+        },
+        "43": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 43,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "F3D0_R1.fastq"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 5170
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "cf99fda6-c4ab-4caa-bd77-5569f8bf1c94",
+            "workflow_outputs": []
+        },
+        "44": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 44,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Input Dataset Collection"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset collection",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 5290
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"collection_type\": \"list:paired\"}",
+            "tool_version": null,
+            "type": "data_collection_input",
+            "uuid": "9824117d-d9e7-4d07-a0d4-45023311ef29",
+            "workflow_outputs": []
+        },
+        "45": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_contigs/mothur_make_contigs/1.39.5.0",
+            "errors": null,
+            "id": 45,
+            "input_connections": {
+                "input_type|list_paired_collection": {
+                    "id": 44,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Make.contigs",
+            "outputs": [
+                {
+                    "name": "fasta",
+                    "type": "fasta"
+                },
+                {
+                    "name": "qual",
+                    "type": "qual"
+                },
+                {
+                    "name": "scrapfasta",
+                    "type": "fasta"
+                },
+                {
+                    "name": "scrapqual",
+                    "type": "qual"
+                },
+                {
+                    "name": "report",
+                    "type": "txt"
+                },
+                {
+                    "name": "group",
+                    "type": "mothur.groups"
+                }
+            ],
+            "position": {
+                "left": 230,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_contigs/mothur_make_contigs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "f65c34178487",
+                "name": "mothur_make_contigs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"align\": \"needleman\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"gapextend\": \"-1\", \"gapopen\": \"-2\", \"input_type\": {\"type\": \"list_collection\", \"__current_case__\": 2, \"list_paired_collection\": null}, \"match\": \"1\", \"mismatch\": \"-1\", \"oligo\": {\"add\": \"no\", \"__current_case__\": 0}, \"rename\": \"true\", \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "e849666d-41ab-4a62-b3c3-11cca4349054",
+            "workflow_outputs": []
+        },
+        "46": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0",
+            "errors": null,
+            "id": 46,
+            "input_connections": {
+                "fasta": {
+                    "id": 45,
+                    "output_name": "fasta"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Summary.seqs",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "out_summary",
+                    "type": "mothur.summary"
+                }
+            ],
+            "position": {
+                "left": 450,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "4041dc69af62",
+                "name": "mothur_summary_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"fasta\": null, \"name\": null, \"savelog\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "cd5c6f95-370b-47b7-ad31-917b3d6e6b35",
+            "workflow_outputs": []
+        },
+        "47": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0",
+            "errors": null,
+            "id": 47,
+            "input_connections": {
+                "fasta": {
+                    "id": 45,
+                    "output_name": "fasta"
+                },
+                "groups": {
+                    "id": 45,
+                    "output_name": "group"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Screen.seqs",
+            "outputs": [
+                {
+                    "name": "fasta_out",
+                    "type": "input"
+                },
+                {
+                    "name": "bad_accnos",
+                    "type": "mothur.accnos"
+                },
+                {
+                    "name": "alignreport_out",
+                    "type": "mothur.align.report"
+                },
+                {
+                    "name": "contigsreport_out",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 450,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "a136fc12b26a",
+                "name": "mothur_screen_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"alignrep\": {\"usealign\": \"no\", \"__current_case__\": 1}, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"contigsrep\": {\"usecontigs\": \"no\", \"__current_case__\": 1}, \"count\": null, \"criteria\": \"-1\", \"end\": \"-1\", \"fasta\": null, \"groups\": null, \"maxambig\": \"0\", \"maxhomop\": \"-1\", \"maxlength\": \"275\", \"minlength\": \"10\", \"names\": null, \"optimize\": null, \"qfile\": null, \"savelog\": \"false\", \"start\": \"-1\", \"summary\": null, \"taxonomy\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "04a5f0f5-0840-4526-b8b9-f36ef55728c1",
+            "workflow_outputs": []
+        },
+        "48": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0",
+            "errors": null,
+            "id": 48,
+            "input_connections": {
+                "fasta": {
+                    "id": 47,
+                    "output_name": "fasta_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Unique.seqs",
+            "outputs": [
+                {
+                    "name": "out_fasta",
+                    "type": "input"
+                },
+                {
+                    "name": "out_names",
+                    "type": "mothur.names"
+                }
+            ],
+            "position": {
+                "left": 670,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "84722a5b79af",
+                "name": "mothur_unique_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"fasta\": null, \"format\": \"name\", \"names\": null, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "41d3106a-6d67-4c00-b4a2-a4504394620c",
+            "workflow_outputs": []
+        },
+        "49": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_seqs/mothur_count_seqs/1.39.5.0",
+            "errors": null,
+            "id": 49,
+            "input_connections": {
+                "grouping|group": {
+                    "id": 47,
+                    "output_name": "groups_out"
+                },
+                "name": {
+                    "id": 48,
+                    "output_name": "out_names"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Count.seqs",
+            "outputs": [
+                {
+                    "name": "seq_count",
+                    "type": "mothur.count_table"
+                }
+            ],
+            "position": {
+                "left": 890,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_seqs/mothur_count_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "59a962f57cb5",
+                "name": "mothur_count_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"grouping\": {\"use\": \"yes\", \"__current_case__\": 0, \"group\": null, \"groups\": null}, \"name\": null, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "a750d433-1afb-43a7-9295-12a1f3fe2e51",
+            "workflow_outputs": []
+        },
+        "50": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0",
+            "errors": null,
+            "id": 50,
+            "input_connections": {
+                "alignment|reference": {
+                    "id": 2,
+                    "output_name": "output"
+                },
+                "fasta": {
+                    "id": 48,
+                    "output_name": "out_fasta"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Align.seqs",
+            "outputs": [
+                {
+                    "name": "out_align",
+                    "type": "mothur.align"
+                },
+                {
+                    "name": "report",
+                    "type": "mothur.align.report"
+                }
+            ],
+            "position": {
+                "left": 890,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_align_seqs/mothur_align_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "152ae632ab19",
+                "name": "mothur_align_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"align\": \"needleman\", \"alignment\": {\"source\": \"history\", \"__current_case__\": 1, \"reference\": null}, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"fasta\": null, \"reverse\": {\"flip\": \"no\", \"__current_case__\": 1}, \"savelog\": \"false\", \"scoring\": {\"adjust\": \"no\", \"__current_case__\": 1}, \"search\": {\"method\": \"kmer\", \"__current_case__\": 0, \"ksize\": \"8\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "acf5adfc-c383-4354-a068-9b3d5883ed85",
+            "workflow_outputs": []
+        },
+        "51": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0",
+            "errors": null,
+            "id": 51,
+            "input_connections": {
+                "count": {
+                    "id": 49,
+                    "output_name": "seq_count"
+                },
+                "fasta": {
+                    "id": 50,
+                    "output_name": "out_align"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Summary.seqs",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "out_summary",
+                    "type": "mothur.summary"
+                }
+            ],
+            "position": {
+                "left": 1110,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "4041dc69af62",
+                "name": "mothur_summary_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"fasta\": null, \"name\": null, \"savelog\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "9bbc262d-18b3-4ba3-86b4-68d6c5f6420a",
+            "workflow_outputs": []
+        },
+        "52": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0",
+            "errors": null,
+            "id": 52,
+            "input_connections": {
+                "fasta": {
+                    "id": 50,
+                    "output_name": "out_align"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Screen.seqs",
+            "outputs": [
+                {
+                    "name": "fasta_out",
+                    "type": "input"
+                },
+                {
+                    "name": "bad_accnos",
+                    "type": "mothur.accnos"
+                },
+                {
+                    "name": "alignreport_out",
+                    "type": "mothur.align.report"
+                },
+                {
+                    "name": "contigsreport_out",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 1110,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "a136fc12b26a",
+                "name": "mothur_screen_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"alignrep\": {\"usealign\": \"no\", \"__current_case__\": 1}, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"contigsrep\": {\"usecontigs\": \"no\", \"__current_case__\": 1}, \"count\": null, \"criteria\": \"-1\", \"end\": \"11550\", \"fasta\": null, \"groups\": null, \"maxambig\": \"-1\", \"maxhomop\": \"8\", \"maxlength\": \"-1\", \"minlength\": \"10\", \"names\": null, \"optimize\": null, \"qfile\": null, \"savelog\": \"false\", \"start\": \"1968\", \"summary\": null, \"taxonomy\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "957eee88-0f5f-485e-abf3-b629c5533058",
+            "workflow_outputs": []
+        },
+        "53": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0",
+            "errors": null,
+            "id": 53,
+            "input_connections": {
+                "fasta": {
+                    "id": 52,
+                    "output_name": "fasta_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Filter.seqs",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "out_filter",
+                    "type": "mothur.filter"
+                },
+                {
+                    "name": "filteredfasta",
+                    "type": "fasta"
+                }
+            ],
+            "position": {
+                "left": 1330,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "b587a3a485b8",
+                "name": "mothur_filter_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"fasta\": null, \"hard\": null, \"inputs\": [], \"savelog\": \"true\", \"soft\": \"0\", \"trump\": \".\", \"vertical\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "e9dd641b-d3af-462a-86a5-af11d0b5a813",
+            "workflow_outputs": []
+        },
+        "54": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0",
+            "errors": null,
+            "id": 54,
+            "input_connections": {
+                "fasta": {
+                    "id": 53,
+                    "output_name": "filteredfasta"
+                },
+                "names": {
+                    "id": 49,
+                    "output_name": "seq_count"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Unique.seqs",
+            "outputs": [
+                {
+                    "name": "out_fasta",
+                    "type": "input"
+                },
+                {
+                    "name": "out_count",
+                    "type": "mothur.count_table"
+                }
+            ],
+            "position": {
+                "left": 1550,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "84722a5b79af",
+                "name": "mothur_unique_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"fasta\": null, \"format\": \"count\", \"names\": null, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "764f51bf-cdc8-4e00-aa8e-b4016672a452",
+            "workflow_outputs": []
+        },
+        "55": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_pre_cluster/mothur_pre_cluster/1.39.5.0",
+            "errors": null,
+            "id": 55,
+            "input_connections": {
+                "fasta": {
+                    "id": 54,
+                    "output_name": "out_fasta"
+                },
+                "name": {
+                    "id": 54,
+                    "output_name": "out_count"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Pre.cluster",
+            "outputs": [
+                {
+                    "name": "map_out",
+                    "type": "input"
+                },
+                {
+                    "name": "fasta_out",
+                    "type": "input"
+                },
+                {
+                    "name": "names_out",
+                    "type": "mothur.names"
+                },
+                {
+                    "name": "count_out",
+                    "type": "mothur.count_table"
+                }
+            ],
+            "position": {
+                "left": 1770,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_pre_cluster/mothur_pre_cluster/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "d848e23e9343",
+                "name": "mothur_pre_cluster",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"diffs\": \"1\", \"fasta\": null, \"gapextend\": \"-1\", \"gapopen\": \"-2\", \"group\": null, \"match\": \"1\", \"mismatch\": \"-1\", \"name\": null, \"savelog\": \"false\", \"topdown\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "12b8b8b1-3c9d-4f68-b03e-b3ca5a72e4d2",
+            "workflow_outputs": []
+        },
+        "56": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_chimera_vsearch/mothur_chimera_vsearch/1.39.5.1",
+            "errors": null,
+            "id": 56,
+            "input_connections": {
+                "fasta": {
+                    "id": 55,
+                    "output_name": "fasta_out"
+                },
+                "template|count": {
+                    "id": 55,
+                    "output_name": "count_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Chimera.vsearch",
+            "outputs": [
+                {
+                    "name": "vsearch.chimeras",
+                    "type": "txt"
+                },
+                {
+                    "name": "out_accnos",
+                    "type": "mothur.accnos"
+                }
+            ],
+            "position": {
+                "left": 1990,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_chimera_vsearch/mothur_chimera_vsearch/1.39.5.1",
+            "tool_shed_repository": {
+                "changeset_revision": "dd4546e98188",
+                "name": "mothur_chimera_vsearch",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"dereplicate\": \"true\", \"dn\": \"1.4\", \"fasta\": null, \"mindiffs\": \"3\", \"mindiv\": \"0.5\", \"minh\": \"0.3\", \"savelog\": \"false\", \"template\": {\"source\": \"self\", \"__current_case__\": 2, \"abskew\": \"1.9\", \"group\": null, \"count\": null}, \"xn\": \"8.0\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.1",
+            "type": "tool",
+            "uuid": "3dd8c355-cf33-4a71-9d08-6e3eb10e023f",
+            "workflow_outputs": []
+        },
+        "57": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_seqs/mothur_remove_seqs/1.39.5.0",
+            "errors": null,
+            "id": 57,
+            "input_connections": {
+                "accnos": {
+                    "id": 56,
+                    "output_name": "out_accnos"
+                },
+                "count_in": {
+                    "id": 56,
+                    "output_name": "out_count"
+                },
+                "fasta_in": {
+                    "id": 55,
+                    "output_name": "fasta_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Remove.seqs",
+            "outputs": [],
+            "position": {
+                "left": 2210,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_seqs/mothur_remove_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "eec15ff2d3c9",
+                "name": "mothur_remove_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"accnos\": null, \"alignreport_in\": null, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count_in\": null, \"dups\": \"true\", \"fasta_in\": null, \"fastq_in\": null, \"group_in\": null, \"list_in\": null, \"name_in\": null, \"qfile_in\": null, \"savelog\": \"false\", \"taxonomy_in\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "2cb9a5ac-0ac7-4d4f-93d1-065f4da084ac",
+            "workflow_outputs": []
+        },
+        "58": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_seqs/mothur_classify_seqs/1.39.5.0",
+            "errors": null,
+            "id": 58,
+            "input_connections": {
+                "alignment|template": {
+                    "id": 1,
+                    "output_name": "output"
+                },
+                "count": {
+                    "id": 57,
+                    "output_name": "count_out"
+                },
+                "fasta": {
+                    "id": 57,
+                    "output_name": "fasta_out"
+                },
+                "tax|taxonomy": {
+                    "id": 0,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Classify.seqs",
+            "outputs": [
+                {
+                    "name": "taxonomy_out",
+                    "type": "mothur.seq.taxonomy"
+                },
+                {
+                    "name": "tax_summary",
+                    "type": "mothur.tax.summary"
+                },
+                {
+                    "name": "tree_sum",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 2430,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_seqs/mothur_classify_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "2f5d4d86eb9a",
+                "name": "mothur_classify_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"alignment\": {\"source\": \"hist\", \"__current_case__\": 1, \"template\": null}, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"classify\": {\"method\": \"wang\", \"__current_case__\": 0, \"ksize\": \"8\", \"iters\": \"100\", \"cutoff\": \"80\", \"probs\": \"true\"}, \"count\": null, \"fasta\": null, \"name\": null, \"output\": \"simple\", \"printlevel\": \"-1\", \"relabund\": \"false\", \"savelog\": \"false\", \"tax\": {\"source2\": \"hist\", \"__current_case__\": 1, \"taxonomy\": null}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "39bed899-7a89-4d09-aa83-e79673aa00fc",
+            "workflow_outputs": []
+        },
+        "59": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_lineage/mothur_remove_lineage/1.39.5.0",
+            "errors": null,
+            "id": 59,
+            "input_connections": {
+                "count": {
+                    "id": 57,
+                    "output_name": "count_out"
+                },
+                "fasta_in": {
+                    "id": 57,
+                    "output_name": "fasta_out"
+                },
+                "file|taxonomy": {
+                    "id": 58,
+                    "output_name": "taxonomy_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Remove.lineage",
+            "outputs": [
+                {
+                    "name": "taxonomy_out",
+                    "type": "mothur.seq.taxonomy"
+                }
+            ],
+            "position": {
+                "left": 2650,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_lineage/mothur_remove_lineage/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "2a4d6c3d9b6d",
+                "name": "mothur_remove_lineage",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"alignreport_in\": null, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"dups\": \"true\", \"fasta_in\": null, \"file\": {\"filetype\": \"usetaxonomy\", \"__current_case__\": 0, \"taxonomy\": null, \"taxons\": null}, \"group_in\": null, \"list_in\": null, \"name_in\": null, \"savelog\": \"false\", \"taxon\": \"Chloroplast-Mitochondria-unknown-Archaea-Eukaryota\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "498bcc3c-311e-42c5-afee-b875226b9124",
+            "workflow_outputs": []
+        },
+        "60": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_get_groups/mothur_get_groups/1.39.5.0",
+            "errors": null,
+            "id": 60,
+            "input_connections": {
+                "fasta_in": {
+                    "id": 59,
+                    "output_name": "fasta_out"
+                },
+                "group_in": {
+                    "id": 59,
+                    "output_name": "count_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Get.groups",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "group_out",
+                    "type": "mothur.groups"
+                },
+                {
+                    "name": "count_out",
+                    "type": "mothur.count_table"
+                }
+            ],
+            "position": {
+                "left": 2870,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_get_groups/mothur_get_groups/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "e4d70a26c19f",
+                "name": "mothur_get_groups",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"column_in\": null, \"design_in\": null, \"fasta_in\": null, \"group_in\": null, \"groupnames\": {\"source\": \"groups\", \"__current_case__\": 0, \"groups\": [\"Mock\"]}, \"list_in\": null, \"name_in\": null, \"phylip_in\": null, \"savelog\": \"true\", \"shared_in\": null, \"taxonomy_in\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "62715416-b501-4fe0-878d-587a2be9a865",
+            "workflow_outputs": []
+        },
+        "61": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_groups/mothur_remove_groups/1.39.5.0",
+            "errors": null,
+            "id": 61,
+            "input_connections": {
+                "groupnames|fasta_in": {
+                    "id": 59,
+                    "output_name": "fasta_out"
+                },
+                "groupnames|group_in": {
+                    "id": 59,
+                    "output_name": "count_out"
+                },
+                "groupnames|taxonomy_in": {
+                    "id": 59,
+                    "output_name": "taxonomy_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Remove.groups",
+            "outputs": [
+                {
+                    "name": "group_out",
+                    "type": "mothur.groups"
+                },
+                {
+                    "name": "count_out",
+                    "type": "mothur.count_table"
+                }
+            ],
+            "position": {
+                "left": 2870,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_groups/mothur_remove_groups/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "3fac82ad3f01",
+                "name": "mothur_remove_groups",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"groupnames\": {\"source\": \"other\", \"__current_case__\": 0, \"group_in\": null, \"groups\": [\"Mock\"], \"fasta_in\": null, \"name_in\": null, \"list_in\": null, \"taxonomy_in\": null, \"phylip_in\": null, \"column_in\": null}, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "301981da-0ea9-43f5-a2ea-e34fdfad65bd",
+            "workflow_outputs": []
+        },
+        "62": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_seq_error/mothur_seq_error/1.39.5.0",
+            "errors": null,
+            "id": 62,
+            "input_connections": {
+                "alignment|template": {
+                    "id": 5,
+                    "output_name": "output"
+                },
+                "count": {
+                    "id": 60,
+                    "output_name": "count_out"
+                },
+                "fasta_in": {
+                    "id": 60,
+                    "output_name": "fasta_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Seq.error",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "summary_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "seq_out",
+                    "type": "fasta"
+                },
+                {
+                    "name": "seq_forward_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "seq_reverse_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "chimera_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "count_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "matrix_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "ref_query_out",
+                    "type": "mothur.align"
+                }
+            ],
+            "position": {
+                "left": 3090,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_seq_error/mothur_seq_error/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "2851c368b879",
+                "name": "mothur_seq_error",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"alignment\": {\"source\": \"history\", \"__current_case__\": 1, \"template\": null}, \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"fasta_in\": null, \"ignorechimeras\": \"true\", \"name_in\": null, \"qual\": {\"use\": \"no\", \"__current_case__\": 1}, \"savelog\": \"true\", \"threshold\": \"\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "3b22eeea-1ac1-406b-8c86-2a318909e5d3",
+            "workflow_outputs": []
+        },
+        "63": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_seqs/mothur_dist_seqs/1.39.5.0",
+            "errors": null,
+            "id": 63,
+            "input_connections": {
+                "fasta": {
+                    "id": 60,
+                    "output_name": "fasta_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Dist.seqs",
+            "outputs": [
+                {
+                    "name": "out_dist",
+                    "type": "mothur.pair.dist"
+                }
+            ],
+            "position": {
+                "left": 3090,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_seqs/mothur_dist_seqs/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "502323efbd82",
+                "name": "mothur_dist_seqs",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"calc\": \"\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"countends\": \"true\", \"cutoff\": \"0.2\", \"fasta\": null, \"output\": \"\", \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "89cd823b-d30e-44b2-98e1-e5015dd40352",
+            "workflow_outputs": []
+        },
+        "64": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster_split/mothur_cluster_split/1.39.5.0",
+            "errors": null,
+            "id": 64,
+            "input_connections": {
+                "splitby|fasta": {
+                    "id": 61,
+                    "output_name": "fasta_out"
+                },
+                "splitby|nameOrCount": {
+                    "id": 61,
+                    "output_name": "count_out"
+                },
+                "splitby|taxonomy": {
+                    "id": 61,
+                    "output_name": "taxonomy_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cluster.split",
+            "outputs": [
+                {
+                    "name": "rabund",
+                    "type": "mothur.rabund"
+                },
+                {
+                    "name": "sabund",
+                    "type": "mothur.sabund"
+                },
+                {
+                    "name": "otulist",
+                    "type": "mothur.list"
+                },
+                {
+                    "name": "sensspec",
+                    "type": "txt"
+                }
+            ],
+            "position": {
+                "left": 3090,
+                "top": 250
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster_split/mothur_cluster_split/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "a9924d4f538f",
+                "name": "mothur_cluster_split",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"cluster\": \"true\", \"cutoff\": \"0.03\", \"large\": \"false\", \"precision\": \"100\", \"runsensspec\": \"true\", \"savelog\": \"false\", \"splitby\": {\"splitmethod\": \"fasta\", \"__current_case__\": 2, \"fasta\": null, \"taxonomy\": null, \"nameOrCount\": null, \"taxlevel\": \"4\", \"classic\": \"false\", \"condmethod\": {\"method\": \"opti\", \"__current_case__\": 5, \"metric\": \"mcc\", \"initialize\": \"singleton\", \"delta\": \"0.0001\", \"iters\": \"100\"}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "a74c009a-4f16-4351-b2aa-d18d3ab355bb",
+            "workflow_outputs": []
+        },
+        "65": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster/mothur_cluster/1.39.5.0",
+            "errors": null,
+            "id": 65,
+            "input_connections": {
+                "count": {
+                    "id": 60,
+                    "output_name": "count_out"
+                },
+                "matrix|dist": {
+                    "id": 63,
+                    "output_name": "out_dist"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cluster",
+            "outputs": [
+                {
+                    "name": "rabund",
+                    "type": "mothur.rabund"
+                },
+                {
+                    "name": "sabund",
+                    "type": "mothur.sabund"
+                },
+                {
+                    "name": "otulist",
+                    "type": "mothur.list"
+                }
+            ],
+            "position": {
+                "left": 3310,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster/mothur_cluster/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "5ea1f1f9d801",
+                "name": "mothur_cluster",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"cutoff\": \"0.0\", \"matrix\": {\"format\": \"column\", \"__current_case__\": 0, \"dist\": null, \"name\": null}, \"precision\": \"100\", \"savelog\": \"false\", \"select_method\": {\"method\": \"opti\", \"__current_case__\": 5, \"metric\": \"mcc\", \"initialize\": \"singleton\", \"delta\": \"0.0001\", \"iters\": \"100\"}, \"sim\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "a7cabe6a-5bb9-491c-b49d-88e4fbb064a6",
+            "workflow_outputs": []
+        },
+        "66": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_hcluster/mothur_hcluster/1.36.1.0",
+            "errors": null,
+            "id": 66,
+            "input_connections": {
+                "matrix|dist": {
+                    "id": 63,
+                    "output_name": "out_dist"
+                },
+                "matrix|name": {
+                    "id": 48,
+                    "output_name": "out_names"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Hcluster",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "rabund",
+                    "type": "mothur.rabund"
+                },
+                {
+                    "name": "sabund",
+                    "type": "mothur.sabund"
+                },
+                {
+                    "name": "otulist",
+                    "type": "mothur.list"
+                }
+            ],
+            "position": {
+                "left": 3310,
+                "top": 370
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_hcluster/mothur_hcluster/1.36.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "989184322514",
+                "name": "mothur_hcluster",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"cutoff\": \"0.1\", \"hard\": \"true\", \"matrix\": {\"format\": \"column\", \"__current_case__\": 0, \"dist\": null, \"name\": null}, \"method\": \"average\", \"precision\": \"100\", \"showabund\": \"true\", \"sorted\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.36.1.0",
+            "type": "tool",
+            "uuid": "e5cd0222-9558-48df-a85e-f21ffaad5538",
+            "workflow_outputs": []
+        },
+        "67": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_shared/mothur_make_shared/1.39.5.0",
+            "errors": null,
+            "id": 67,
+            "input_connections": {
+                "intype|group": {
+                    "id": 61,
+                    "output_name": "count_out"
+                },
+                "intype|otu": {
+                    "id": 64,
+                    "output_name": "otulist"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Make.shared",
+            "outputs": [
+                {
+                    "name": "shared",
+                    "type": "mothur.shared"
+                },
+                {
+                    "name": "groupout",
+                    "type": "mothur.groups"
+                }
+            ],
+            "position": {
+                "left": 3310,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_shared/mothur_make_shared/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "60f0853e33f3",
+                "name": "mothur_make_shared",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"intype\": {\"infile\": \"otulist\", \"__current_case__\": 0, \"otu\": null, \"group\": null, \"label\": [\"0.03\"], \"groups\": null}, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "3c56a205-20e2-4c4b-8aa9-3fd363d84bca",
+            "workflow_outputs": []
+        },
+        "68": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0",
+            "errors": null,
+            "id": 68,
+            "input_connections": {
+                "count": {
+                    "id": 61,
+                    "output_name": "count_out"
+                },
+                "otu": {
+                    "id": 64,
+                    "output_name": "otulist"
+                },
+                "tax|taxonomy": {
+                    "id": 61,
+                    "output_name": "taxonomy_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Classify.otu",
+            "outputs": [
+                {
+                    "name": "taxsummaries",
+                    "type": "input"
+                },
+                {
+                    "name": "taxonomies",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3310,
+                "top": 250
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ec7c3ecca41a",
+                "name": "mothur_classify_otu",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"basis\": \"otu\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"cutoff\": \"60\", \"group\": null, \"label\": [\"0.03\"], \"name\": null, \"otu\": null, \"output\": \"simple\", \"persample\": \"false\", \"printlevel\": \"-1\", \"probs\": \"true\", \"relabund\": \"false\", \"savelog\": \"false\", \"tax\": {\"source\": \"hist\", \"__current_case__\": 1, \"taxonomy\": null}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "b3081a61-f6b1-4139-804d-4d75370b296f",
+            "workflow_outputs": []
+        },
+        "69": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0",
+            "errors": null,
+            "id": 69,
+            "input_connections": {
+                "count": {
+                    "id": 61,
+                    "output_name": "count_out"
+                },
+                "name": {
+                    "id": 48,
+                    "output_name": "out_names"
+                },
+                "otu": {
+                    "id": 64,
+                    "output_name": "otulist"
+                },
+                "tax|taxonomy": {
+                    "id": 61,
+                    "output_name": "taxonomy_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Classify.otu",
+            "outputs": [
+                {
+                    "name": "taxsummaries",
+                    "type": "input"
+                },
+                {
+                    "name": "taxonomies",
+                    "type": "input"
+                },
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                }
+            ],
+            "position": {
+                "left": 3310,
+                "top": 490
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ec7c3ecca41a",
+                "name": "mothur_classify_otu",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"basis\": \"otu\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"cutoff\": \"60\", \"group\": null, \"label\": [\"0.03\"], \"name\": null, \"otu\": null, \"output\": \"simple\", \"persample\": \"true\", \"printlevel\": \"-1\", \"probs\": \"true\", \"relabund\": \"true\", \"savelog\": \"true\", \"tax\": {\"source\": \"hist\", \"__current_case__\": 1, \"taxonomy\": null}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "fc15d353-d8c5-493a-b645-b2b0710ec359",
+            "workflow_outputs": []
+        },
+        "70": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_shared/mothur_make_shared/1.39.5.0",
+            "errors": null,
+            "id": 70,
+            "input_connections": {
+                "intype|group": {
+                    "id": 60,
+                    "output_name": "count_out"
+                },
+                "intype|otu": {
+                    "id": 65,
+                    "output_name": "otulist"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Make.shared",
+            "outputs": [
+                {
+                    "name": "shared",
+                    "type": "mothur.shared"
+                },
+                {
+                    "name": "groupout",
+                    "type": "mothur.groups"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_shared/mothur_make_shared/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "60f0853e33f3",
+                "name": "mothur_make_shared",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"intype\": {\"infile\": \"otulist\", \"__current_case__\": 0, \"otu\": null, \"group\": null, \"label\": [\"0.03\"], \"groups\": null}, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "439bae07-c9ec-4c23-abf0-91b193f0b20c",
+            "workflow_outputs": []
+        },
+        "71": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0",
+            "errors": null,
+            "id": 71,
+            "input_connections": {
+                "group": {
+                    "id": 47,
+                    "output_name": "groups_out"
+                },
+                "name": {
+                    "id": 48,
+                    "output_name": "out_names"
+                },
+                "otu": {
+                    "id": 66,
+                    "output_name": "otulist"
+                },
+                "tax|taxonomy": {
+                    "id": 59,
+                    "output_name": "taxonomy_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Classify.otu",
+            "outputs": [
+                {
+                    "name": "taxsummaries",
+                    "type": "input"
+                },
+                {
+                    "name": "taxonomies",
+                    "type": "input"
+                },
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 970
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ec7c3ecca41a",
+                "name": "mothur_classify_otu",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"basis\": \"otu\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"cutoff\": \"60\", \"group\": null, \"label\": [\"0.01\", \"0.02\", \"0.03\", \"0.04\", \"0.06\", \"0.07\", \"0.08\", \"label\", \"unique\"], \"name\": null, \"otu\": null, \"output\": \"simple\", \"persample\": \"false\", \"printlevel\": \"-1\", \"probs\": \"true\", \"relabund\": \"true\", \"savelog\": \"true\", \"tax\": {\"source\": \"hist\", \"__current_case__\": 1, \"taxonomy\": null}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "f5f872be-eb2c-4dd5-8894-6abf4ed3bc2b",
+            "workflow_outputs": []
+        },
+        "72": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_groups/mothur_count_groups/1.39.5.0",
+            "errors": null,
+            "id": 72,
+            "input_connections": {
+                "group": {
+                    "id": 67,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Count.groups",
+            "outputs": [
+                {
+                    "name": "grp_count",
+                    "type": "tabular"
+                },
+                {
+                    "name": "summary",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_groups/mothur_count_groups/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "28867c3771e1",
+                "name": "mothur_count_groups",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"group\": null, \"groupnames\": {\"source\": \"none\", \"__current_case__\": 0}, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "5f1cb5cb-bfb3-4d80-a8b6-2862b036ad40",
+            "workflow_outputs": []
+        },
+        "73": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0",
+            "errors": null,
+            "id": 73,
+            "input_connections": {
+                "otu": {
+                    "id": 67,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Rarefaction.single",
+            "outputs": [
+                {
+                    "name": "rarefactioncurves",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 250
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "b5bcc4bf53d1",
+                "name": "mothur_rarefaction_single",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"abund\": \"10\", \"calc\": [\"sobs\"], \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"freq\": \"100.0\", \"iters\": \"1000\", \"label\": null, \"otu\": null, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "12a06c7f-1978-4949-af88-d3f463b03cd2",
+            "workflow_outputs": []
+        },
+        "74": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_single/mothur_summary_single/1.39.5.0",
+            "errors": null,
+            "id": 74,
+            "input_connections": {
+                "otu": {
+                    "id": 67,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Summary.single",
+            "outputs": [
+                {
+                    "name": "summaryfiles",
+                    "type": "input"
+                },
+                {
+                    "name": "subsample_summary",
+                    "type": "tabular"
+                },
+                {
+                    "name": "summary",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 370
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_single/mothur_summary_single/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "72be09dfd803",
+                "name": "mothur_summary_single",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"abund\": \"10\", \"calc\": [\"ace\", \"chao\", \"jack\", \"sobs\", \"simpson\", \"shannon\", \"npshannon\"], \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"groupmode\": \"true\", \"label\": null, \"otu\": null, \"savelog\": \"false\", \"size\": \"2389\", \"subsample\": {\"use\": \"no\", \"__current_case__\": 1}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "e18b0048-2372-4628-8763-40b0375b00a7",
+            "workflow_outputs": []
+        },
+        "75": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_shared/mothur_dist_shared/1.39.5.0",
+            "errors": null,
+            "id": 75,
+            "input_connections": {
+                "otu": {
+                    "id": 67,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Dist.shared",
+            "outputs": [
+                {
+                    "name": "distfiles",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 490
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_shared/mothur_dist_shared/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "1a899fec55e1",
+                "name": "mothur_dist_shared",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"calc\": [\"jclass\", \"thetayc\"], \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"groups\": null, \"label\": null, \"otu\": null, \"output\": \"lt\", \"savelog\": \"false\", \"subsampling\": {\"use\": \"yes\", \"__current_case__\": 0, \"subsample\": \"2389\", \"iters\": \"1000\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "4a1d1a59-6a84-4d95-bc3d-c75acae26ae4",
+            "workflow_outputs": []
+        },
+        "76": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_venn/mothur_venn/1.39.5.0",
+            "errors": null,
+            "id": 76,
+            "input_connections": {
+                "input|otu": {
+                    "id": 67,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Venn",
+            "outputs": [
+                {
+                    "name": "sharedotus_out",
+                    "type": "input"
+                },
+                {
+                    "name": "svgs_out",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 610
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_venn/mothur_venn/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "200defe4c42b",
+                "name": "mothur_venn",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"fontsize\": \"24\", \"input\": {\"source\": \"shared\", \"__current_case__\": 0, \"otu\": null, \"calc\": null, \"label\": null, \"groups\": [\"F3D0\", \"F3D1\", \"F3D2\", \"F3D3\"]}, \"nseqs\": \"false\", \"permute\": \"4\", \"savelog\": \"false\", \"sharedotus\": \"true\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "377f14cb-c3f6-4f2e-be4a-22d6f79bc506",
+            "workflow_outputs": []
+        },
+        "77": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_get_relabund/mothur_get_relabund/1.39.5.0",
+            "errors": null,
+            "id": 77,
+            "input_connections": {
+                "otu": {
+                    "id": 67,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Get.relabund",
+            "outputs": [
+                {
+                    "name": "logfile",
+                    "type": "txt"
+                },
+                {
+                    "name": "relabund",
+                    "type": "mothur.relabund"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 850
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_get_relabund/mothur_get_relabund/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "b07e7be6326a",
+                "name": "mothur_get_relabund",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"groups\": [\"F3D0\", \"F3D1\", \"F3D141\", \"F3D142\", \"F3D143\", \"F3D144\", \"F3D145\", \"F3D146\", \"F3D147\", \"F3D148\", \"F3D149\", \"F3D150\", \"F3D2\", \"F3D3\", \"F3D5\", \"F3D6\", \"F3D7\", \"F3D8\", \"F3D9\"], \"label\": [\"0.03\"], \"otu\": null, \"savelog\": \"true\", \"scale\": \"totalgroup\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "3b49c818-561f-4660-842e-a72ed82bc544",
+            "workflow_outputs": []
+        },
+        "78": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_taxonomy_to_krona/mothur_taxonomy_to_krona/1.0",
+            "errors": null,
+            "id": 78,
+            "input_connections": {
+                "inputfile": {
+                    "id": 68,
+                    "output_name": "taxonomies"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Taxonomy-to-Krona",
+            "outputs": [
+                {
+                    "name": "outputfile",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 3530,
+                "top": 730
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_taxonomy_to_krona/mothur_taxonomy_to_krona/1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ec53d27ee602",
+                "name": "mothur_taxonomy_to_krona",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"inputfile\": null, \"inputfile|__identifier__\": \"0.03\", \"stripconfidences\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0",
+            "type": "tool",
+            "uuid": "b880d097-51b3-463e-8633-f9262b47a1ce",
+            "workflow_outputs": []
+        },
+        "79": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0",
+            "errors": null,
+            "id": 79,
+            "input_connections": {
+                "otu": {
+                    "id": 70,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Rarefaction.single",
+            "outputs": [
+                {
+                    "name": "rarefactioncurves",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3750,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "b5bcc4bf53d1",
+                "name": "mothur_rarefaction_single",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"abund\": \"10\", \"calc\": [\"sobs\"], \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"freq\": \"100.0\", \"iters\": \"1000\", \"label\": null, \"otu\": null, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "c57f9f4f-b21d-41f8-8eaf-95861fb552d7",
+            "workflow_outputs": []
+        },
+        "80": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0",
+            "errors": null,
+            "id": 80,
+            "input_connections": {
+                "input|otu": {
+                    "id": 70,
+                    "output_name": "shared"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Sub.sample",
+            "outputs": [
+                {
+                    "name": "shared_out",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3750,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "0f4dfa0332e8",
+                "name": "mothur_sub_sample",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"input\": {\"format\": \"shared\", \"__current_case__\": 2, \"otu\": null, \"groups\": null, \"label\": null}, \"savelog\": \"false\", \"size\": \"2389\", \"taxonomy\": null, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "84b9ee8e-9ce6-41b6-b916-bcac3964f00b",
+            "workflow_outputs": []
+        },
+        "81": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/xy_plot/XY_Plot_1/1.0.2",
+            "errors": null,
+            "id": 81,
+            "input_connections": {
+                "series_0|input": {
+                    "id": 73,
+                    "output_name": "rarefactioncurves"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Plotting tool",
+            "outputs": [
+                {
+                    "name": "out_file_pdf",
+                    "type": "pdf"
+                }
+            ],
+            "position": {
+                "left": 3750,
+                "top": 250
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/xy_plot/XY_Plot_1/1.0.2",
+            "tool_shed_repository": {
+                "changeset_revision": "ecb437f1d298",
+                "name": "xy_plot",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"main\": \"Rarefaction\", \"outftype\": \"pdf\", \"series\": [{\"__index__\": 0, \"input\": null, \"header\": \"true\", \"xcol\": \"1\", \"ycol\": [\"2\", \"5\", \"8\", \"11\", \"14\", \"17\", \"20\", \"23\", \"26\", \"29\", \"32\", \"35\", \"38\", \"41\", \"44\", \"47\", \"50\", \"53\", \"56\", \"58\"], \"series_type\": {\"type\": \"line\", \"__current_case__\": 0, \"lty\": \"1\", \"col\": \"2\", \"lwd\": \"1.0\"}}], \"series_0|input|__identifier__\": \"sobs\", \"xlab\": \"Number of Sequences\", \"ylab\": \"Number of OTUs\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.2",
+            "type": "tool",
+            "uuid": "fd72239c-6a21-4113-8916-8c7480291b91",
+            "workflow_outputs": []
+        },
+        "82": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_heatmap_sim/mothur_heatmap_sim/1.39.5.0",
+            "errors": null,
+            "id": 82,
+            "input_connections": {
+                "input|dist": {
+                    "id": 75,
+                    "output_name": "distfiles"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Heatmap.sim",
+            "outputs": [
+                {
+                    "name": "heatmap",
+                    "type": "svg"
+                }
+            ],
+            "position": {
+                "left": 3750,
+                "top": 370
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_heatmap_sim/mothur_heatmap_sim/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "c2dead9d38c4",
+                "name": "mothur_heatmap_sim",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"count\": null, \"dist|__identifier__\": \"thetayc.0.03.lt.std\", \"fontsize\": \"24\", \"input\": {\"source\": \"phylip\", \"__current_case__\": 2, \"dist\": null}, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "ea3a301b-c4df-4bb0-b21b-c10855256c27",
+            "workflow_outputs": []
+        },
+        "83": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_tree_shared/mothur_tree_shared/1.39.5.0",
+            "errors": null,
+            "id": 83,
+            "input_connections": {
+                "input|dist": {
+                    "id": 75,
+                    "output_name": "distfiles"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Tree.shared",
+            "outputs": [
+                {
+                    "name": "tre",
+                    "type": "mothur.tre"
+                }
+            ],
+            "position": {
+                "left": 3750,
+                "top": 490
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mothur_tree_shared/mothur_tree_shared/1.39.5.0",
+            "tool_shed_repository": {
+                "changeset_revision": "af2b5be87d4f",
+                "name": "mothur_tree_shared",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"calc\": [\"jclass\", \"thetayc\"], \"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"dist|__identifier__\": \"thetayc.0.03.lt.std\", \"input\": {\"source\": \"phylip\", \"__current_case__\": 1, \"dist\": null, \"name\": null}, \"savelog\": \"false\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.39.5.0",
+            "type": "tool",
+            "uuid": "5fa85500-e03c-4643-9d22-3624ccf4b84d",
+            "workflow_outputs": []
+        },
+        "84": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.6.1.1",
+            "errors": null,
+            "id": 84,
+            "input_connections": {
+                "type_of_data|input": {
+                    "id": 78,
+                    "output_name": "outputfile"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Krona pie chart",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "html"
+                }
+            ],
+            "position": {
+                "left": 3750,
+                "top": 610
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.6.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "c9f8fef1df74",
+                "name": "taxonomy_krona_chart",
+                "owner": "crs4",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"chromInfo\": \"/cvmfs/data.galaxyproject.org/managed/len/ucsc/?.len\", \"combine_inputs\": \"false\", \"root_name\": \"Root\", \"type_of_data\": {\"type_of_data_selector\": \"text\", \"__current_case__\": 1, \"input\": null}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.6.1.1",
+            "type": "tool",
+            "uuid": "af4d0fee-8060-423d-b20c-d6e4a2624b98",
+            "workflow_outputs": []
+        }
+    },
+    "tags": [],
+    "uuid": "e1779eb2-cd1c-454f-aae3-688ad62b3434",
+    "version": 0
+}
